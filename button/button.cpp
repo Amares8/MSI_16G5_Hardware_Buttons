@@ -64,7 +64,10 @@ void ECOKeyPress()
 
 void P1KeyPress()
 {
-
+	LPCWSTR p1Path = L"C:\\Windows\\System32\\cmd.exe";
+	//LPCWSTR params = L"/k cd /d d:\your\path";
+	ShellExecute(NULL, L"runas", p1Path, NULL, NULL, SW_SHOWDEFAULT);
+	
 }
 
 
@@ -99,6 +102,7 @@ LRESULT CALLBACK KBDHook(int nCode, WPARAM wParam, LPARAM lParam)
 				break;
 			case 111:
 				//std::cout << "P1! " << std::endl;
+				P1KeyPress();
 				break;
 		}
 	}

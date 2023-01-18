@@ -1,1 +1,4 @@
-﻿  button.vcxproj -> C:\Users\Amares8\Documents\Programy\button\x64\Debug\button.exe
+﻿  button.cpp
+C:\Users\Amares8\Documents\Programy\MSI_16G5_Hardware_Buttons\button\button.cpp(68,19): warning C4129: "y": nierozpoznany znak sekwencji ucieczki
+C:\Users\Amares8\Documents\Programy\MSI_16G5_Hardware_Buttons\button\button.cpp(68,19): warning C4129: "p": nierozpoznany znak sekwencji ucieczki
+  button.vcxproj -> C:\Users\Amares8\Documents\Programy\MSI_16G5_Hardware_Buttons\x64\Debug\button.exe
